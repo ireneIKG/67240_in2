@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pretty Cry</title>
+    <meta name="description" content="Pretty Cry Homepage">
+    <meta name="author" content="Irene Gao">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Caprasimo&family=Eczar&family=Inter&family=Irish+Grover&family=Merriweather:wght@300&family=Playfair+Display&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Koulen&family=Lakki+Reddy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Koulen&family=Lakki+Reddy&family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Koulen&family=Lakki+Reddy&family=Lavishly+Yours&family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Gabriela&family=Irish+Grover&family=Koulen&family=Lakki+Reddy&family=Lavishly+Yours&family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- brand name on the top of the page -->
+            <h1 class = "title">Pretty Cry</h1>
+            <div class="cart-icon">
+                <!-- Shopping cart icon on the top right of the page -->
+                <img src="Images/shoppingcartwhite.avif" alt="Cart">
+            </div>
+            <!-- navigation bar that contains four pages directory: Best Sellers, Colorful Lashes, Inspirations, and About Us-->
+            <!-- No border for the navigation bar and no background color to make the website looks simple and neat -->
+            <nav>
+                <ul>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Colorful Lashes</a></li>
+                    <li><a href="#">Inspirations</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <!-- I made the top introduction home page image, and also the subtext a section, like two columns. When the screen becomes a mobile screen, the column on the left side is dropped. -->
+            <!-- The subtext is on the left side of the home page introduction image -->
+            <div class = "openBox">
+                <!-- subtext for top page -->
+                <ul class = "subText">
+                    <li>Lashes.</li>
+                    <li>Design.</li>
+                    <li>Inspiration.</li>
+                </ul>
+                <!-- image for top page -->
+                <image class = "eyehomepage" src = "images/eyehomepage.jpg"/>
+            </div>
+            <!-- This is the section for best sellers products, includes three best sellers side by side, in one row.  -->
+            <div class = "bestSellers">
+                <div class = "bestSellerTitle">Best Sellers</div>
+                <div class = "grid">
+                    <div class = "product">
+                        <img class = "productImg" src = "images/MidnightMagic.jpg" width = 100px height=100px>
+                        <div class = "productName">Midnight Magic</div>
+                        <div class = "productName">$15</div>
+                    </div>
+                    <div class = "product">
+                        <img class = "productImg" src = "images/Feather.jpg" width=100px height=100px>
+                        <div class = "productName">Feather Soft</div>
+                        <div class = "productName">$13</div>
+                    </div>
+                    <div class = "product">
+                        <img class = "productImg" src = "images/NaturalCharm.jpg" width=100px height=100px>
+                        <div class = "productName">Natural Charm</div>
+                        <div class = "productName">$15</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Next section is the inspirations section. It includes two inspirations for our lashes design. 
+                The inspiration includes an image and subtext side by side about why this is my inspiration. 
+                The two inspirations are made one above the other. -->
+            <div class = "inspirations">
+                <div class="containerInspo">
+                    <div class="inspoTitle">Inspirations</div>
+                </div>
+                <div class = "openBox">
+                    <img class = "leftImg" src = "images/valentino.jpg">
+                    <div class = "imgText">
+                        <div class = "imgTitle">Valentino WalkWay Gold Lashes</div>
+                        <div class = "imgDescription">Valentino Gold Lashes are known for their beautiful and luxurious look. Their unique golden design has inspired others to think creatively about lash styles. Now, many see lashes as a special part of artistic and bold fashion statements.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- second inspiration is subtext on the leftside, and image on the right side. -->
+            <div class = "inspirations">
+                <div class = "right openBox">
+                    <div class = "left imgText">
+                        <div class = "imgTitle">Dior WalkWay Feather Lashes</div>
+                        <div class = "leftImgDescription">Dior Black Feather Lashes bring a touch of sophistication and drama to eye makeup with their bold, dark design. Inspired by these, many have started to experiment with more daring and artistic lash styles. The lashes, looking like delicate feathers, make a strong yet elegant fashion statement that many admire and seek to emulate.</div>
+                    </div>
+                    <img class = "rightImg" src = "images/dior.jpg">
+                </div>
+            </div>
+        </div>
+</body>
+<!-- the footer section includes the subscription box where users can enter their email to get subscribed from the brand -->
+<footer>
+    <div class="subscribe-footer">
+        <div class="subscribe-content">
+            <h2>Subscribe to Our Email!</h2>
+            <form class="subscribe-form" action="/subscribe" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</footer>
+</html>

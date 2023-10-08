@@ -1,0 +1,337 @@
+/* General styling for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1BBBB;
+    color: black;
+}
+
+/* Styling for the header section */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for the main title inside the header */
+.title {
+    margin-bottom: 25px;
+    font-family: 'Irish Grover', cursive;
+    font-size: 60px;
+}
+
+/* Center aligns all h1 elements */
+h1 {
+    text-align: center;
+}
+
+/* Styling for the cart icon container */
+.cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Styling for the cart icon image */
+.cart-icon img {
+    width: 20px;
+    height: auto;
+}
+
+/* Navbar */
+/* Styling for the navigation bar */
+nav {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Style for individual list items within the navigation bar */
+nav li {
+    margin: 0 6%;
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+}
+
+/* Style for anchor elements within the navigation bar */
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Section for intro page */
+/* Styling for the openBox class, used for layout and alignment */
+.openBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+    margin-bottom: 75px;
+}
+
+
+/* Styling for the top section subtext next to the home page image */
+.subText{
+    align-items: center;
+    height: 200px; 
+    list-style-type: none;
+    padding: 0;
+    margin-right: 7%;
+}
+
+.subText li {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Gabriela', serif;
+}
+
+/* Styling for the top section home page image */
+.eyehomepage {
+    width: 60%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Best Sellers */
+/* Section for styling bestsellers names and image and price */
+.productImg{
+    height: auto;
+    border-radius: 20px;
+}
+
+.productName{
+    font-size: 15px;
+    font-family: 'Lakki Reddy', cursive;
+}
+
+.product {
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    font-size: 30px;
+}
+
+.bestSellerTitle {
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    padding: 10px 40px; 
+    border-radius: 20px;
+    border: 3px solid rgb(227, 103, 103); 
+    display: inline-block; 
+    box-shadow: 4px 4px 8px #504c4c; 
+}
+
+/* Layout for best sellers products */
+.grid {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.grid img {
+    width: 100%;
+}
+
+
+.bestSellers {
+    margin-bottom: 75px;
+}
+
+/* lay our for Inspiration section */
+.containerInspo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for inspiration title */
+.inspoTitle {
+    font-size: 40px;
+    text-align: center; 
+    margin-bottom: 50px;
+    padding: 20px 40px; 
+    border: 4px solid #e05c5c;
+    border-radius: 40px;
+    display: inline-block;
+    font-family: 'Londrina Shadow', cursive;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+}
+
+/* subtext for inpiration images */
+.imgText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.leftImg {
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+.leftImgText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.right {
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.rightImg {
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+/* Description for inspiration */
+.imgTitle {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Lavishly Yours', cursive;
+}
+.imgDescription {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.leftImgDescription {
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* Layout for footer, and subscription box */
+.footer {
+    background-color: #8d4444;
+}
+.subscribe-footer {
+    background-color: #f46f6f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.subscribe-content h2 {
+    font-size: 24px;
+}
+
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #7e2020;
+    color: white;
+}
+
+.subscribe-form button:hover {
+    background-color: #ffcdcd;
+}
+
+
+
+/*------------------------- Responsive styles ------------------------*/
+/*--  style for tablet screen ---*/
+@media (max-width: 992px) {
+    body{
+        background-color: #FFB47E;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .cart-icon {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .cart-icon img {
+        width: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav li {
+        font-size: 15px;
+        margin: 0 25px;
+    }
+}
+
+/*--  style for phone screen ---*/
+@media screen and (max-width: 768px){
+	body{
+        background-color: #F4D155;
+    }
+    .imgTitle {
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-family: 'Lavishly Yours', cursive;
+    }
+    .imgDescription {
+        font-size: 12px;
+        line-height: 30px;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .leftImgDescription {
+        font-size: 12px;
+        margin-left: 10%;
+        line-height: 30px;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .subText {
+        display: none; 
+    }
+
+    .openBox {
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .eyehomepage {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+}
